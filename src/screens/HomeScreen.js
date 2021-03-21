@@ -35,6 +35,10 @@ const HomeScreen = (props) => {
       >
         <Text>Intencity Screen</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity onPress={() => props.navigation.navigate("PrintName")}>
+        <Text>Print Name</Text>
+      </TouchableOpacity>
     </View>
   );
 };
