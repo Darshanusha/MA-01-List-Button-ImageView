@@ -4,6 +4,10 @@ import HomeScreen from "./src/screens/HomeScreen";
 import Components from "./src/screens/Components";
 import ListScreen from "./src/screens/ListScreen";
 import ImageScreen from "./src/screens/ImageScreen";
+import CounterScreen from "./src/screens/CounterScreen";
+import ColoursScreen from "./src/screens/ColoursScreen";
+import Intencity from "./src/screens/components/Intencity";
+import IntencityWithReducer from "./src/screens/components/IntencityWithReducer";
 
 const navigator = createStackNavigator(
   {
@@ -11,6 +15,10 @@ const navigator = createStackNavigator(
     components: Components,
     ListScreen: ListScreen,
     ImageScreen: ImageScreen,
+    CounterScreen: CounterScreen,
+    ColoursScreen: ColoursScreen,
+    Intencity: Intencity,
+    IntencityWithReducer: IntencityWithReducer,
   },
   {
     initialRouteName: "Home",

@@ -17,6 +17,24 @@ const HomeScreen = (props) => {
       >
         <Text>Click to open Image View</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity
+        onPress={() => props.navigation.navigate("CounterScreen")}
+      >
+        <Text>Counter Screen</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        onPress={() => props.navigation.navigate("ColoursScreen")}
+      >
+        <Text>Colours Screen</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        onPress={() => props.navigation.navigate("IntencityWithReducer")}
+      >
+        <Text>Intencity Screen</Text>
+      </TouchableOpacity>
     </View>
   );
 };
